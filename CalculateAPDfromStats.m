@@ -1,5 +1,6 @@
 
 function [varargout]= CalculateAPDfromStats(varargin)
+% Function written by Anthony Owusu-Mensah
 % eg
 %[APD_control,APD_gkr50,APD_gkr75] = CalculateAPDfromStats(filename1,filename2,filename3)
 
