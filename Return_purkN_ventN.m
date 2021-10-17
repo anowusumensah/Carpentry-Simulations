@@ -1,4 +1,5 @@
 function [purKcouple,venTcouple,distCouple] = Return_purkN_ventN(pmjsFilename)
+% Function written by Anthony Owusu-Mensah
 % This function returns for a given purkinje node
 % the myocardial nodes that are coupled to it.
 % purKcouple has the Purkinje nodes
