@@ -1,7 +1,7 @@
 function [maxVel,tVel]= ReturnMaxVel(filename)
 % Function written by Anthony Owusu-Mensah
 % This function accepts an action potential file and return the 
-% maximum upstroke velocity
+% maximum upstroke velocity and the time it occurs
     Data = readtable(filename);
     tdata = Data.Var1; 
     Vdata = Data.Var2;
